@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuestas y Opiniones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+        }
+        nav a {
+            margin: 10px;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .survey {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encuestas y Opiniones</h1>
+        <nav>
+            <a href="#surveys">Encuestas</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contacto</a>
+            <a href="#about">Acerca de</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="surveys">
+            <h2>Encuestas Destacadas</h2>
+            <div class="survey">
+                <h3>¿Cuál es tu equipo favorito en la Champions League?</h3>
+                <form action="#" method="POST">
+                    <select name="team" required>
+                        <option value="" disabled selected>Selecciona un equipo</option>
+                        <option value="real_madrid">Real Madrid</option>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="manchester_city">Manchester City</option>
+                        <option value="bayern_munich">Bayern Múnich</option>
+                    </select>
+                    <button type="submit">Votar</button>
+                </form>
+            </div>
+            <div class="survey">
+                <h3>¿Qué tecnología cambiará el mundo en la próxima década?</h3>
+                <form action="#" method="POST">
+                    <select name="technology" required>
+                        <option value="" disabled selected>Selecciona una tecnología</option>
+                        <option value="ai">Inteligencia Artificial</option>
+                        <option value="blockchain">Blockchain</option>
+                        <option value="renewable_energy">Energía Renovable</option>
+                        <option value="quantum_computing">Computación Cuántica</option>
+                    </select>
+                    <button type="submit">Votar</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Artículos interesantes sobre las últimas tendencias y opiniones.</p>
+            <!-- Aquí puedes agregar enlaces a artículos del blog -->
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>¿Eres una empresa interesada en encuestas patrocinadas? Contáctanos <a href="mailto:tuemail@ejemplo.com">aquí</a>.</p>
+        </section>
+
+        <section id="about">
+            <h2>Acerca de</h2>
+            <p>Este sitio se dedica a recopilar opiniones y encuestas sobre temas de actualidad. ¡Tu voz cuenta!</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Encuestas y Opiniones. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
